@@ -10,3 +10,5 @@ pip install "passlib[bcrypt]"
 
 CONEXION CON BDD
 pip install pymongo
+
+pip freeze > requirements.txt
