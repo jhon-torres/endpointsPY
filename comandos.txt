@@ -1,0 +1,12 @@
+INSTALAR FASTAPI
+pip install "fastapi[all]"
+
+CORRER main
+python -m uvicorn main:app --reload
+
+LIBRERIA DE ENCRIPTACIÓN (OAuth2 with Password)
+pip install "python-jose[cryptography]"
+pip install "passlib[bcrypt]"
+
+CONEXION CON BDD
+pip install pymongo
