@@ -17,7 +17,7 @@ app.include_router(users_db.router)
 
 @app.get("/")
 async def root():
-    return "Hola Faaast!"
+    return "Backend Desplegado!"
 
 @app.get("/name")
 async def name():
